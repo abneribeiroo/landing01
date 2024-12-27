@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#ff4d00] hover:bg-[#e64500] py-2 px-5 rounded-2xl transition duration-300;
+  }
+}
